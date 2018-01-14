@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.10.1)  14 JAN 2018 11:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.10.1)  14 JAN 2018 21:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -707,31 +707,42 @@ Package pdftex.def Info: Strahlengang.png used on input line 29.
 File: ewald.png Graphic file (type png)
  <use ewald.png>
 Package pdftex.def Info: ewald.png used on input line 45.
-(pdftex.def)             Requested size: 304.18454pt x 223.99911pt.
- [2 <./Strahlengang.png>] [3 <./ewald.png>] (./FP11.aux) ) 
+(pdftex.def)             Requested size: 282.45566pt x 207.99918pt.
+ [2 <./Strahlengang.png>] <tem.png, id=24, 328.22626pt x 509.65407pt>
+File: tem.png Graphic file (type png)
+ <use tem.png>
+Package pdftex.def Info: tem.png used on input line 55.
+(pdftex.def)             Requested size: 260.7334pt x 404.86198pt.
+
+Overfull \hbox (5.36552pt too wide) in paragraph at lines 51--58
+\OT1/cmr/m/n/10.95 Bei dem ver-wen-de-ten Trans-mis-si-ons-elek-tro-nen-mi-kro-
+skop han-delt es sich um ein Ti-tan 80/300.
+ []
+
+[3 <./ewald.png>] [4 <./tem.png>] [5] (./FP11.aux) ) 
 Here is how much of TeX's memory you used:
- 9824 strings out of 493117
- 172623 string characters out of 6138984
- 269838 words of memory out of 5000000
- 13183 multiletter control sequences out of 15000+600000
+ 9830 strings out of 493117
+ 172682 string characters out of 6138984
+ 269846 words of memory out of 5000000
+ 13188 multiletter control sequences out of 15000+600000
  12420 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,11n,51p,10348b,255s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2014/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2014/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2014/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr12.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><
-c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/
-2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2014/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2014/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2014/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmti10.pfb>
-Output written on FP11.pdf (3 pages, 148065 bytes).
+ 47i,11n,51p,10348b,260s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2014/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2014/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi8.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
+pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2014/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2014/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2014/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2014/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti10.pfb>
+Output written on FP11.pdf (5 pages, 189405 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 70 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
