@@ -5,6 +5,7 @@
 \usepackage{amsfonts, amsmath, amssymb}
 \usepackage{graphicx}
 \usepackage{float}
+\usepackage{subcaption}
 \parindent0pt
 
 \title{Transmissions-Elektronen-Mikroskopie}
@@ -59,6 +60,51 @@ Die gestreuten Elektronen werden transmittiert und werden wiederum über ein Lin
 Bevor das Beugungsbild einer Probe aufgenommen werden kann, muss das TEM zuerst justiert werden. Dazu wird der Elektronenstrahl auf das Vakuum fokussiert. Als erstes wird die C2-Blende zentriert, sodass bei einem Vergrößerungswechsel der Strahl in der Mitte des Schirms bleibt. Danach wird der Elektronenstrahl auf eine kreisrunde Form gebracht, da dieser durch den Kondensorastigmatismus zumeist elliptische ist. Als dritter Schritt wird der Strahl auf die Probenoberfläche fokussiert und anschließend wird das Rotationszentrum durch verkippen der Probe eingestellt. Nach der Justage werden Beugungsbilder aufgenommen, sowohl in Zonenachse, als auch mit anderen Lauekreiszentren. Danach werden Aufnahmen im Abbildungsmodus gemacht, wobei Hellfeld-, aber auch Dunkelfeldaufnahmen mit den Reflexen (022) und (004) gemacht werden. Auf der InGaAs/GaAs-Probe befinden sich InGaAs-Quantentrögen, von denen Aufnahmen gemacht werden, um im Anschluss einmal über den Gitterabstand und einmal über den Intensitätsverlauf den Indiumgehalt zubestimmen.
 
 \section{Auswertung}
+
+Es wurde eine GaAs Probe untersucht, die Quantentröge aus InGaAs enthält. Auf einem Bereich mit mehreren solchen Quantentrögen wurde das Beugungsbild in Abb. \ref{100ind} aufgenommen, während die Probe in Zonenachse [100] orientiert war.
+
+\begin{figure}[h]\centering
+	\includegraphics[width=0.65\textwidth]{Versuchsdaten/8/indiziert2.png}
+\label{100ind}
+\caption{Beugungsbild auf InGaAs in Zonenache [100]}
+\end{figure}
+
+Die Zonenachse [100] ist dadurch zu erkennen, dass die Intensitäten der Reflexe symmetrisch um den Punkt (000) verteilt sind. Wird die Probe verkippt, bilden sich Lauekreise mit Zentren abseits des Punktes (000), sodass der Punkt (000) immer auf dem Rand des Kreises liegt. Da GaAs ein Kubisches Gitter mit zwei Atomsorten bildet, haben alle Punkte mit ungeraden Laue-Indizes einen Strukturfaktor von 0. Dementsprechend sind die entsprechenden Reflexe auf dem Beugungsbild auch nicht zu erkennen.
+Im Folgenden wurden mehrere Beugungsbilder mit unterschiedlichen Lauekreiszentren aufgenommen.
+
+\begin{figure}[htb]\centering
+	\subcaptionbox{Beugungsbild mit Lauekreiszentrum (008)\label{008}}
+	[.49\linewidth]{\includegraphics[width=0.49\textwidth]{Versuchsdaten/9/008.jpg}}
+	\subcaptionbox{Beugungsbild mit Lauekreiszentrum (022)\label{022}}
+	[.49\linewidth]{\includegraphics[width=0.49\textwidth]{Versuchsdaten/9/022.jpg}}\\
+	\caption{Beugungsbilder bei unterschiedlichen Probendrehung} \label{laue1}
+\end{figure}
+
+In den Abb. \ref{008} und \ref{022} sind diese Beugungsbilder zu sehen. Im Lauekreis um das jeweilige Zentrum herum haben diejenigen Reflexe eine starke Intensität, die die Bragg-Reflexionsbedingung erfüllen. Eine Verschiebung des Lauekreiszentrums entsteht zudem auf unterschiedlichen Probenstellen durch geringe Unebenheiten oder auch durch anders ausgerichtete Kristallebenen erfolgen. \\
+Damit die (004) Netzebenen in Bragg-Reflexionsstellung sind, muss der (004) Reflex im Beugungsbild auf dem Lauekreis liegen. Dies ist im einfachsten Fall beim Lauekreiszentrum (002) gegeben. Zu sehen ist dieser Fall in Abb. \ref{002} zu sehen.
+
+\begin{figure}[h]\centering
+	\includegraphics[width=0.65\textwidth]{Versuchsdaten/9/002.jpg}
+\label{002}
+\caption{Beugungsbild mit Lauekreiszentrum (002)}
+\end{figure}
+
+Zudem liegt der Reflex (022) in diesem Fall ebenfalls auf dem Lauekreis. Indem mit einer kleinen Blende alle Reflexe bis auf einen ausgeblendet werden, konnten im Folgenden Dunkelfeldaufnahmen der Probe gemacht werden.
+
+\begin{figure}[htb]\centering
+	\subcaptionbox{Hellfeldaufnahme\label{hell}}
+	[.32\linewidth]{\includegraphics[width=0.32\textwidth]{Versuchsdaten/10/hell.jpg}}
+	\subcaptionbox{Dunkelfeldaufnahme mit Reflex (004)\label{dunkel004}}
+	[.32\linewidth]{\includegraphics[width=0.32\textwidth]{Versuchsdaten/10/004-dunkel.jpg}}
+	\subcaptionbox{Dunkelfeldaufnahme mit Reflex (022\label{dunkel022}}
+	[.32\linewidth]{\includegraphics[width=0.32\textwidth]{Versuchsdaten/10/022-dunkel.jpg}}
+	\caption{Aufnahmen} \label{dunkelhell}
+\end{figure}
+
+Zum Vergleich ist in Abb. \ref{hell} eine Hellfeldaufnahme der Probenstelle zu sehen. In den Abb. \ref{dunkel004} und \ref{dunkel022} sind zwei Dunkelfeldaufnahmen zu sehen, die mit unterschiedlichen Reflexen erstellt wurden. \\
+In der Hellfeldaufnahme sind die InGaAs Quantentröge nicht sehr gut von dem umgebenen GaAs zu unterscheiden. Hierbei bieten die Dunkelfeldaufnahmen Vorteile. Da InGaAs eine andere Gitterkonstante besitzt als GaAs, sind die Reflexe nicht am gleichen Ort im Beugungsbild, sodass die InGaAs Schichten deutlich dunkler im Bild zu sehen sind. Dieser Effekt ist sowohl beim Reflex (022) als auch beim Reflex (004) zu erkennen. \\
+Es sind außerdem Bereiche auf den Dunkelfeldaufnahmen zu sehen, die ebenfalls dunkel erscheinen und keine Einzelheiten mehr erkennen lassen. Dies könnten Bereiche sein, in denen die Probe eine unterschiedliche Kristallorientierung besitzen und dadurch der jeweilige Reflex verschoben oder schwächer ausgeprägt ist. \\
+
 
 \section{Zusammenfassung}
 
