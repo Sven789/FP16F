@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.10.1)  14 JAN 2018 11:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.9.30)  15 JAN 2018 00:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -616,34 +616,58 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box44
 \@float@everytoks=\toks27
 \@floatcapt=\box45
+)
+(c:/texlive/2014/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+
+(c:/texlive/2014/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(c:/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen148
+\captionmargin@=\dimen149
+\captionwidth=\dimen150
+\caption@tempdima=\dimen151
+\caption@indent=\dimen152
+\caption@parindent=\dimen153
+\caption@hangindent=\dimen154
+)
+Package caption Info: KOMA-Script document class.
+\c@ContinuedFloat=\count132
+Package caption Info: float package is loaded.
+)
+\c@subfigure=\count133
+\c@subtable=\count134
 ) (./FP11.aux)
 \openout1 = `FP11.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 (c:/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count132
-\scratchdimen=\dimen148
+\scratchcounter=\count135
+\scratchdimen=\dimen155
 \scratchbox=\box46
-\nofMPsegments=\count133
-\nofMParguments=\count134
+\nofMPsegments=\count136
+\nofMParguments=\count137
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count135
-\MPscratchDim=\dimen149
-\MPnumerator=\count136
-\makeMPintoPDFobject=\count137
+\MPscratchCnt=\count138
+\MPscratchDim=\dimen156
+\MPnumerator=\count139
+\makeMPintoPDFobject=\count140
 \everyMPtoPDFconversion=\toks29
 ) (c:/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -676,17 +700,19 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 17.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+msa on input line 18.
 
 (c:/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 17.
+LaTeX Font Info:    Try loading font information for U+msb on input line 18.
 
 (c:/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (36.42818pt too wide) in paragraph at lines 21--22
+Overfull \hbox (36.42818pt too wide) in paragraph at lines 22--23
 \OT1/cmr/m/n/10.95 Elek-tro-nen wer-den []uber ge-eig-ne-te Be-ob-ach-tungs-sys
 -te-me sicht-bar ge-macht. Das Aufl[]osungsverm[]ogen
  []
@@ -694,7 +720,7 @@ Overfull \hbox (36.42818pt too wide) in paragraph at lines 21--22
 <Strahlengang.png, id=1, 634.62094pt x 452.4403pt>
 File: Strahlengang.png Graphic file (type png)
  <use Strahlengang.png>
-Package pdftex.def Info: Strahlengang.png used on input line 29.
+Package pdftex.def Info: Strahlengang.png used on input line 30.
 (pdftex.def)             Requested size: 434.55125pt x 309.8162pt.
 
 [1
@@ -706,32 +732,127 @@ Package pdftex.def Info: Strahlengang.png used on input line 29.
 <ewald.png, id=18, 331.2375pt x 243.91125pt>
 File: ewald.png Graphic file (type png)
  <use ewald.png>
-Package pdftex.def Info: ewald.png used on input line 45.
+Package pdftex.def Info: ewald.png used on input line 46.
 (pdftex.def)             Requested size: 304.18454pt x 223.99911pt.
- [2 <./Strahlengang.png>] [3 <./ewald.png>] (./FP11.aux) ) 
+ [2 <./Strahlengang.png>]
+
+Package caption Warning: \label without proper \caption on input line 60.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `100ind' on page 3 undefined on input line 56.
+
+<Versuchsdaten/8/indiziert2.png, id=24, 1222.5675pt x 1062.97125pt>
+File: Versuchsdaten/8/indiziert2.png Graphic file (type png)
+
+<use Versuchsdaten/8/indiziert2.png>
+Package pdftex.def Info: Versuchsdaten/8/indiziert2.png used on input line 59.
+(pdftex.def)             Requested size: 282.45566pt x 245.58118pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Versuchsdaten/9/008.jpg, id=25, 2055.68pt x 2055.68pt>
+File: Versuchsdaten/9/008.jpg Graphic file (type jpg)
+
+<use Versuchsdaten/9/008.jpg>
+Package pdftex.def Info: Versuchsdaten/9/008.jpg used on input line 69.
+(pdftex.def)             Requested size: 212.9325pt x 212.91994pt.
+
+<Versuchsdaten/9/022.jpg, id=26, 2055.68pt x 2055.68pt>
+File: Versuchsdaten/9/022.jpg Graphic file (type jpg)
+
+<use Versuchsdaten/9/022.jpg>
+Package pdftex.def Info: Versuchsdaten/9/022.jpg used on input line 71.
+(pdftex.def)             Requested size: 212.9325pt x 212.91994pt.
+
+
+Package caption Warning: \label without proper \caption on input line 80.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `002' on page 3 undefined on input line 76.
+
+[3 <./ewald.png>] <Versuchsdaten/9/002.jpg, id=31, 2055.68pt x 2055.68pt>
+File: Versuchsdaten/9/002.jpg Graphic file (type jpg)
+
+<use Versuchsdaten/9/002.jpg>
+Package pdftex.def Info: Versuchsdaten/9/002.jpg used on input line 79.
+(pdftex.def)             Requested size: 282.45566pt x 282.42946pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Versuchsdaten/10/hell.jpg, id=32, 2055.68pt x 2055.68pt>
+File: Versuchsdaten/10/hell.jpg Graphic file (type jpg)
+
+<use Versuchsdaten/10/hell.jpg>
+Package pdftex.def Info: Versuchsdaten/10/hell.jpg used on input line 88.
+(pdftex.def)             Requested size: 139.05957pt x 139.0504pt.
+
+<Versuchsdaten/10/004-dunkel.jpg, id=33, 2055.68pt x 2055.68pt>
+File: Versuchsdaten/10/004-dunkel.jpg Graphic file (type jpg)
+
+<use Versuchsdaten/10/004-dunkel.jpg>
+Package pdftex.def Info: Versuchsdaten/10/004-dunkel.jpg used on input line 90.
+
+(pdftex.def)             Requested size: 139.05957pt x 139.0504pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+[][]|\OT1/cmr/m/n/10 Dun-kel-feld-auf-nah-me mit
+ []
+
+<Versuchsdaten/10/022-dunkel.jpg, id=34, 2055.68pt x 2055.68pt>
+File: Versuchsdaten/10/022-dunkel.jpg Graphic file (type jpg)
+
+<use Versuchsdaten/10/022-dunkel.jpg>
+Package pdftex.def Info: Versuchsdaten/10/022-dunkel.jpg used on input line 92.
+
+(pdftex.def)             Requested size: 139.05957pt x 139.0504pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+[][]|\OT1/cmr/m/n/10 Dun-kel-feld-auf-nah-me mit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--99
+
+ []
+
+[4 <./Versuchsdaten/8/indiziert2.png>] [5 <./Versuchsdaten/9/008.jpg> <./Versuc
+hsdaten/9/022.jpg>] [6 <./Versuchsdaten/9/002.jpg> <./Versuchsdaten/10/hell.jpg
+> <./Versuchsdaten/10/004-dunkel.jpg> <./Versuchsdaten/10/022-dunkel.jpg>]
+(./FP11.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 9824 strings out of 493117
- 172623 string characters out of 6138984
- 269838 words of memory out of 5000000
- 13183 multiletter control sequences out of 15000+600000
- 12420 words of font info for 48 fonts, out of 8000000 for 9000
+ 10946 strings out of 493117
+ 193296 string characters out of 6138984
+ 292219 words of memory out of 5000000
+ 14284 multiletter control sequences out of 15000+600000
+ 12728 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,11n,51p,10348b,255s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2014/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2014/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2014/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr12.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><
-c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/
-2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2014/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2014/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2014/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmti10.pfb>
-Output written on FP11.pdf (3 pages, 148065 bytes).
+ 48i,11n,52p,10348b,509s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2014
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2014/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2014/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr6.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
+b><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/t
+exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/20
+14/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2014/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on FP11.pdf (6 pages, 3046681 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 82 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
