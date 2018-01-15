@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.9.30)  15 JAN 2018 19:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.9.30)  15 JAN 2018 22:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -861,7 +861,7 @@ File: Versuchsdaten/11/34000xausschnitt.png Graphic file (type png)
 
 <use Versuchsdaten/11/34000xausschnitt.png>
 Package pdftex.def Info: Versuchsdaten/11/34000xausschnitt.png used on input li
-ne 123.
+ne 125.
 (pdftex.def)             Requested size: 212.9325pt x 149.21632pt.
 
 <Versuchsdaten/11/87000xausschnitt.png, id=48, 826.0461pt x 578.8827pt>
@@ -869,7 +869,7 @@ File: Versuchsdaten/11/87000xausschnitt.png Graphic file (type png)
 
 <use Versuchsdaten/11/87000xausschnitt.png>
 Package pdftex.def Info: Versuchsdaten/11/87000xausschnitt.png used on input li
-ne 125.
+ne 127.
 (pdftex.def)             Requested size: 212.9325pt x 149.21632pt.
 
 <Versuchsdaten/11/185000xausschnitt.png, id=49, 826.0461pt x 578.8827pt>
@@ -877,7 +877,7 @@ File: Versuchsdaten/11/185000xausschnitt.png Graphic file (type png)
 
 <use Versuchsdaten/11/185000xausschnitt.png>
 Package pdftex.def Info: Versuchsdaten/11/185000xausschnitt.png used on input l
-ine 127.
+ine 129.
 (pdftex.def)             Requested size: 212.9325pt x 149.21632pt.
 
 <Versuchsdaten/11/380000xausschnitt.png, id=50, 826.0461pt x 578.8827pt>
@@ -885,25 +885,65 @@ File: Versuchsdaten/11/380000xausschnitt.png Graphic file (type png)
 
 <use Versuchsdaten/11/380000xausschnitt.png>
 Package pdftex.def Info: Versuchsdaten/11/380000xausschnitt.png used on input l
-ine 129.
+ine 131.
 (pdftex.def)             Requested size: 212.9325pt x 149.21632pt.
- [6 <./Versuchsdaten/9/008.jpg> <./Versuchsdaten/9/022.jpg>] [7 <./Versuchsdate
-n/9/002.jpg> <./Versuchsdaten/10/hell.jpg> <./Versuchsdaten/10/004-dunkel.jpg> 
-<./Versuchsdaten/10/022-dunkel.jpg>] [8 <./Versuchsdaten/11/34000x.jpg> <./Vers
-uchsdaten/11/87000x.jpg> <./Versuchsdaten/11/185000x.jpg> <./Versuchsdaten/11/3
-80000x.jpg>] [9 <./Versuchsdaten/11/34000xausschnitt.png> <./Versuchsdaten/11/8
-7000xausschnitt.png> <./Versuchsdaten/11/185000xausschnitt.png> <./Versuchsdate
-n/11/380000xausschnitt.png>]
-(./FP11.aux)
+ [6 <./Versuchsdaten/9/008.jpg> <./Versuchsdaten/9/022.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 149--151
+
+ []
+
+<Versuchsdaten/13/good_data/Frame3.jpg, id=54, 2055.68pt x 2055.68pt>
+File: Versuchsdaten/13/good_data/Frame3.jpg Graphic file (type jpg)
+
+<use Versuchsdaten/13/good_data/Frame3.jpg>
+Package pdftex.def Info: Versuchsdaten/13/good_data/Frame3.jpg used on input li
+ne 154.
+(pdftex.def)             Requested size: 212.9325pt x 212.91994pt.
+
+<Versuchsdaten/13/good_data/Frame3_rotated_and_filtered.jpg, id=55, 666.23906pt
+ x 693.34032pt>
+File: Versuchsdaten/13/good_data/Frame3_rotated_and_filtered.jpg Graphic file (
+type jpg)
+
+<use Versuchsdaten/13/good_data/Frame3_rotated_and_filtered.jpg>
+Package pdftex.def Info: Versuchsdaten/13/good_data/Frame3_rotated_and_filtered
+.jpg used on input line 156.
+(pdftex.def)             Requested size: 212.9325pt x 221.58778pt.
+ [7 <./Versuchsdaten/9/002.jpg>]
+
+Package caption Warning: \label without proper \caption on input line 169.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `hochindium' on page 8 undefined on input line 161.
+
+<Versuchsdaten/13/Graph01.png, id=60, 822.4326pt x 578.16pt>
+File: Versuchsdaten/13/Graph01.png Graphic file (type png)
+
+<use Versuchsdaten/13/Graph01.png>
+Package pdftex.def Info: Versuchsdaten/13/Graph01.png used on input line 168.
+(pdftex.def)             Requested size: 282.45566pt x 198.56557pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8 <./Versuchsdaten/10/hell.jpg> <./Versuchsdaten/10/004-dunkel.jpg> <./Versuch
+sdaten/10/022-dunkel.jpg>] [9 <./Versuchsdaten/11/34000x.jpg> <./Versuchsdaten/
+11/87000x.jpg> <./Versuchsdaten/11/185000x.jpg> <./Versuchsdaten/11/380000x.jpg
+>] [10 <./Versuchsdaten/11/34000xausschnitt.png> <./Versuchsdaten/11/87000xauss
+chnitt.png> <./Versuchsdaten/11/185000xausschnitt.png> <./Versuchsdaten/11/3800
+00xausschnitt.png>] [11 <./Versuchsdaten/13/good_data/Frame3.jpg> <./Versuchsda
+ten/13/good_data/Frame3_rotated_and_filtered.jpg> <./Versuchsdaten/13/Graph01.p
+ng>] (./FP11.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 11011 strings out of 493117
- 194848 string characters out of 6138984
- 294379 words of memory out of 5000000
- 14339 multiletter control sequences out of 15000+600000
+ 11034 strings out of 493117
+ 195564 string characters out of 6138984
+ 296479 words of memory out of 5000000
+ 14357 multiletter control sequences out of 15000+600000
  12728 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,11n,52p,10348b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -918,10 +958,10 @@ b><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/20
 14/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2014/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on FP11.pdf (9 pages, 6164570 bytes).
+Output written on FP11.pdf (11 pages, 7719574 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 117 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
