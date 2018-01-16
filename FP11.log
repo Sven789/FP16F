@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.9.30)  15 JAN 2018 19:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.10.1)  16 JAN 2018 13:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -737,85 +737,73 @@ Package pdftex.def Info: ewald.png used on input line 47.
  [2 <./Strahlengang.png>] <tem.png, id=24, 328.22626pt x 509.65407pt>
 File: tem.png Graphic file (type png)
  <use tem.png>
-Package pdftex.def Info: tem.png used on input line 57.
+Package pdftex.def Info: tem.png used on input line 59.
 (pdftex.def)             Requested size: 260.7334pt x 404.86198pt.
 
-Overfull \hbox (5.36552pt too wide) in paragraph at lines 53--60
+Overfull \hbox (5.36552pt too wide) in paragraph at lines 55--62
 \OT1/cmr/m/n/10.95 Bei dem ver-wen-de-ten Trans-mis-si-ons-elek-tro-nen-mi-kro-
 skop han-delt es sich um ein Ti-tan 80/300.
  []
 
-[3 <./ewald.png>] [4 <./tem.png>]
+[3 <./ewald.png>] [4] [5 <./tem.png>]
 
-Package caption Warning: \label without proper \caption on input line 69.
+Package caption Warning: \label without proper \caption on input line 71.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `100ind' on page 5 undefined on input line 65.
+LaTeX Warning: Reference `100ind' on page 6 undefined on input line 67.
 
-<Versuchsdaten/8/indiziert2.png, id=32, 1222.5675pt x 1062.97125pt>
+<Versuchsdaten/8/indiziert2.png, id=35, 1222.5675pt x 1062.97125pt>
 File: Versuchsdaten/8/indiziert2.png Graphic file (type png)
 
 <use Versuchsdaten/8/indiziert2.png>
-Package pdftex.def Info: Versuchsdaten/8/indiziert2.png used on input line 68.
+Package pdftex.def Info: Versuchsdaten/8/indiziert2.png used on input line 70.
 (pdftex.def)             Requested size: 282.45566pt x 245.58118pt.
 
-<Versuchsdaten/9/008.jpg, id=33, 2055.68pt x 2055.68pt>
+<Versuchsdaten/9/008.jpg, id=36, 2055.68pt x 2055.68pt>
 File: Versuchsdaten/9/008.jpg Graphic file (type jpg)
 
 <use Versuchsdaten/9/008.jpg>
-Package pdftex.def Info: Versuchsdaten/9/008.jpg used on input line 78.
+Package pdftex.def Info: Versuchsdaten/9/008.jpg used on input line 80.
 (pdftex.def)             Requested size: 212.9325pt x 212.91994pt.
 
-<Versuchsdaten/9/022.jpg, id=34, 2055.68pt x 2055.68pt>
+<Versuchsdaten/9/022.jpg, id=37, 2055.68pt x 2055.68pt>
 File: Versuchsdaten/9/022.jpg Graphic file (type jpg)
 
 <use Versuchsdaten/9/022.jpg>
-Package pdftex.def Info: Versuchsdaten/9/022.jpg used on input line 80.
+Package pdftex.def Info: Versuchsdaten/9/022.jpg used on input line 82.
 (pdftex.def)             Requested size: 212.9325pt x 212.91994pt.
 
 
-Package caption Warning: \label without proper \caption on input line 89.
+Package caption Warning: \label without proper \caption on input line 91.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `002' on page 5 undefined on input line 85.
+LaTeX Warning: Reference `002' on page 6 undefined on input line 87.
 
-[5 <./Versuchsdaten/8/indiziert2.png>]
-<Versuchsdaten/9/002.jpg, id=39, 2055.68pt x 2055.68pt>
+<Versuchsdaten/9/002.jpg, id=38, 2055.68pt x 2055.68pt>
 File: Versuchsdaten/9/002.jpg Graphic file (type jpg)
 
 <use Versuchsdaten/9/002.jpg>
-Package pdftex.def Info: Versuchsdaten/9/002.jpg used on input line 88.
+Package pdftex.def Info: Versuchsdaten/9/002.jpg used on input line 90.
 (pdftex.def)             Requested size: 282.45566pt x 282.42946pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Versuchsdaten/10/hell.jpg, id=40, 2055.68pt x 2055.68pt>
+[6 <./Versuchsdaten/8/indiziert2.png>]
+<Versuchsdaten/10/hell.jpg, id=43, 2055.68pt x 2055.68pt>
 File: Versuchsdaten/10/hell.jpg Graphic file (type jpg)
 
 <use Versuchsdaten/10/hell.jpg>
-Package pdftex.def Info: Versuchsdaten/10/hell.jpg used on input line 97.
+Package pdftex.def Info: Versuchsdaten/10/hell.jpg used on input line 99.
 (pdftex.def)             Requested size: 139.05957pt x 139.0504pt.
 
-<Versuchsdaten/10/004-dunkel.jpg, id=41, 2055.68pt x 2055.68pt>
+<Versuchsdaten/10/004-dunkel.jpg, id=44, 2055.68pt x 2055.68pt>
 File: Versuchsdaten/10/004-dunkel.jpg Graphic file (type jpg)
 
 <use Versuchsdaten/10/004-dunkel.jpg>
-Package pdftex.def Info: Versuchsdaten/10/004-dunkel.jpg used on input line 99.
-
-(pdftex.def)             Requested size: 139.05957pt x 139.0504pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
-[][]|\OT1/cmr/m/n/10 Dun-kel-feld-auf-nah-me mit
- []
-
-<Versuchsdaten/10/022-dunkel.jpg, id=42, 2055.68pt x 2055.68pt>
-File: Versuchsdaten/10/022-dunkel.jpg Graphic file (type jpg)
-
-<use Versuchsdaten/10/022-dunkel.jpg>
-Package pdftex.def Info: Versuchsdaten/10/022-dunkel.jpg used on input line 101
+Package pdftex.def Info: Versuchsdaten/10/004-dunkel.jpg used on input line 101
 .
 (pdftex.def)             Requested size: 139.05957pt x 139.0504pt.
 
@@ -823,77 +811,89 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--101
 [][]|\OT1/cmr/m/n/10 Dun-kel-feld-auf-nah-me mit
  []
 
+<Versuchsdaten/10/022-dunkel.jpg, id=45, 2055.68pt x 2055.68pt>
+File: Versuchsdaten/10/022-dunkel.jpg Graphic file (type jpg)
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--108
+<use Versuchsdaten/10/022-dunkel.jpg>
+Package pdftex.def Info: Versuchsdaten/10/022-dunkel.jpg used on input line 103
+.
+(pdftex.def)             Requested size: 139.05957pt x 139.0504pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
+[][]|\OT1/cmr/m/n/10 Dun-kel-feld-auf-nah-me mit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--110
 
  []
 
-<Versuchsdaten/11/34000x.jpg, id=43, 2055.68pt x 2055.68pt>
+<Versuchsdaten/11/34000x.jpg, id=46, 2055.68pt x 2055.68pt>
 File: Versuchsdaten/11/34000x.jpg Graphic file (type jpg)
 
 <use Versuchsdaten/11/34000x.jpg>
-Package pdftex.def Info: Versuchsdaten/11/34000x.jpg used on input line 111.
+Package pdftex.def Info: Versuchsdaten/11/34000x.jpg used on input line 113.
 (pdftex.def)             Requested size: 212.9325pt x 212.91994pt.
 
-<Versuchsdaten/11/87000x.jpg, id=44, 2055.68pt x 2055.68pt>
+<Versuchsdaten/11/87000x.jpg, id=47, 2055.68pt x 2055.68pt>
 File: Versuchsdaten/11/87000x.jpg Graphic file (type jpg)
 
 <use Versuchsdaten/11/87000x.jpg>
-Package pdftex.def Info: Versuchsdaten/11/87000x.jpg used on input line 113.
+Package pdftex.def Info: Versuchsdaten/11/87000x.jpg used on input line 115.
 (pdftex.def)             Requested size: 212.9325pt x 212.91994pt.
 
-<Versuchsdaten/11/185000x.jpg, id=45, 2055.68pt x 2055.68pt>
+<Versuchsdaten/11/185000x.jpg, id=48, 2055.68pt x 2055.68pt>
 File: Versuchsdaten/11/185000x.jpg Graphic file (type jpg)
 
 <use Versuchsdaten/11/185000x.jpg>
-Package pdftex.def Info: Versuchsdaten/11/185000x.jpg used on input line 115.
+Package pdftex.def Info: Versuchsdaten/11/185000x.jpg used on input line 117.
 (pdftex.def)             Requested size: 212.9325pt x 212.91994pt.
 
-<Versuchsdaten/11/380000x.jpg, id=46, 2055.68pt x 2055.68pt>
+<Versuchsdaten/11/380000x.jpg, id=49, 2055.68pt x 2055.68pt>
 File: Versuchsdaten/11/380000x.jpg Graphic file (type jpg)
 
 <use Versuchsdaten/11/380000x.jpg>
-Package pdftex.def Info: Versuchsdaten/11/380000x.jpg used on input line 117.
+Package pdftex.def Info: Versuchsdaten/11/380000x.jpg used on input line 119.
 (pdftex.def)             Requested size: 212.9325pt x 212.91994pt.
 
-<Versuchsdaten/11/34000xausschnitt.png, id=47, 826.0461pt x 578.8827pt>
+<Versuchsdaten/11/34000xausschnitt.png, id=50, 826.0461pt x 578.8827pt>
 File: Versuchsdaten/11/34000xausschnitt.png Graphic file (type png)
 
 <use Versuchsdaten/11/34000xausschnitt.png>
 Package pdftex.def Info: Versuchsdaten/11/34000xausschnitt.png used on input li
-ne 123.
+ne 125.
 (pdftex.def)             Requested size: 212.9325pt x 149.21632pt.
 
-<Versuchsdaten/11/87000xausschnitt.png, id=48, 826.0461pt x 578.8827pt>
+<Versuchsdaten/11/87000xausschnitt.png, id=51, 826.0461pt x 578.8827pt>
 File: Versuchsdaten/11/87000xausschnitt.png Graphic file (type png)
 
 <use Versuchsdaten/11/87000xausschnitt.png>
 Package pdftex.def Info: Versuchsdaten/11/87000xausschnitt.png used on input li
-ne 125.
+ne 127.
 (pdftex.def)             Requested size: 212.9325pt x 149.21632pt.
 
-<Versuchsdaten/11/185000xausschnitt.png, id=49, 826.0461pt x 578.8827pt>
+<Versuchsdaten/11/185000xausschnitt.png, id=52, 826.0461pt x 578.8827pt>
 File: Versuchsdaten/11/185000xausschnitt.png Graphic file (type png)
 
 <use Versuchsdaten/11/185000xausschnitt.png>
 Package pdftex.def Info: Versuchsdaten/11/185000xausschnitt.png used on input l
-ine 127.
+ine 129.
 (pdftex.def)             Requested size: 212.9325pt x 149.21632pt.
 
-<Versuchsdaten/11/380000xausschnitt.png, id=50, 826.0461pt x 578.8827pt>
+<Versuchsdaten/11/380000xausschnitt.png, id=53, 826.0461pt x 578.8827pt>
 File: Versuchsdaten/11/380000xausschnitt.png Graphic file (type png)
 
 <use Versuchsdaten/11/380000xausschnitt.png>
 Package pdftex.def Info: Versuchsdaten/11/380000xausschnitt.png used on input l
-ine 129.
+ine 131.
 (pdftex.def)             Requested size: 212.9325pt x 149.21632pt.
- [6 <./Versuchsdaten/9/008.jpg> <./Versuchsdaten/9/022.jpg>] [7 <./Versuchsdate
+ [7 <./Versuchsdaten/9/008.jpg> <./Versuchsdaten/9/022.jpg>] [8 <./Versuchsdate
 n/9/002.jpg> <./Versuchsdaten/10/hell.jpg> <./Versuchsdaten/10/004-dunkel.jpg> 
-<./Versuchsdaten/10/022-dunkel.jpg>] [8 <./Versuchsdaten/11/34000x.jpg> <./Vers
+<./Versuchsdaten/10/022-dunkel.jpg>] [9 <./Versuchsdaten/11/34000x.jpg> <./Vers
 uchsdaten/11/87000x.jpg> <./Versuchsdaten/11/185000x.jpg> <./Versuchsdaten/11/3
-80000x.jpg>] [9 <./Versuchsdaten/11/34000xausschnitt.png> <./Versuchsdaten/11/8
-7000xausschnitt.png> <./Versuchsdaten/11/185000xausschnitt.png> <./Versuchsdate
-n/11/380000xausschnitt.png>]
+80000x.jpg>] [10 <./Versuchsdaten/11/34000xausschnitt.png> <./Versuchsdaten/11/
+87000xausschnitt.png> <./Versuchsdaten/11/185000xausschnitt.png> <./Versuchsdat
+en/11/380000xausschnitt.png>]
 (./FP11.aux)
 
 LaTeX Warning: There were undefined references.
@@ -902,7 +902,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  11011 strings out of 493117
  194848 string characters out of 6138984
- 294379 words of memory out of 5000000
+ 294409 words of memory out of 5000000
  14339 multiletter control sequences out of 15000+600000
  12728 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -918,10 +918,10 @@ b><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/20
 14/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2014/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on FP11.pdf (9 pages, 6164570 bytes).
+Output written on FP11.pdf (10 pages, 6165730 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 110 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
