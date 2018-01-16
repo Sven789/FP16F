@@ -10,8 +10,8 @@
 
 \title{Transmissions-Elektronen-Mikroskopie}
 \author{Adrian Messow, Sven Mehrkens \\
-Tutor: ???}
-\date{Durchführung: 14.12.2017 \\ Abgabe: ??? }
+Tutor: Thorsten Mehrtens}
+\date{Durchführung: 14.12.2017 \\ Abgabe: 17.01.2018 }
 
 \begin{document}
 
@@ -20,12 +20,12 @@ Tutor: ???}
 In diesem Versuch werden die Grundlagen des Transmissionselektronenmikroskops (TEM) vermittelt. Dabei werden nach einer grundlegenden Justierung die Beugungsbilder im Hellfeld und Dunkelfeld an einer GaAs-Probe aufgenommen und indiziert. Durch Aufnahmen von InGaAs-Quantentrögen wird anschließend einerseits über die Intensitätsverteilung und andererseits über die Gitterkonstanten die Indiumkonzentration bestimmt.
 
 \section{Theoretische Grundlagen}
-Transmissionselektronenmikroskope erreichen eine Auflösung die im Sub-\(\mathrm{\mathring{A}}\)-Bereich liegt. Dies liegt an der Verwendung von Elektronen zur Bildgebung, anstatt von Photonen in herkömlichen Lichtmikroskopen. Dabei werden Elektronen aus einem Filament heraus beschleunigt und über Linsensysteme auf die Probenoberfläche fokussiert. Die transmittierten Elektronen werden über geeignete Beobachtungssysteme sichtbar gemacht. Das Auflösungsvermögen wird durch das Raleigh-Kriterium beschrieben und kann bei kleinen Winkelabweichungen von \(\alpha<1^\circ\) beschrieben werden durch \(\delta > 60\lambda\). Für eine typische Bechleunigungsspannung von \(100\,\mathrm{kV}\) ergibt sich zum Beispiel eine Auflösung von \(0,2\,\mathrm{nm}\). Dabei wird die Wellenlänge des Elektrons durch die \textit{de Broglie Wellenlänge} für relativistische Teilchen beschrieben: 
+Transmissionselektronenmikroskope erreichen eine Auflösung die im Sub-\(\mathrm{\mathring{A}}\)-Bereich liegt. Dies liegt an der Verwendung von Elektronen zur Bildgebung, anstatt von Photonen in herkömlichen Lichtmikroskopen. Dabei werden Elektronen aus einem Filament heraus beschleunigt und über Linsensysteme auf die Probenoberfläche fokussiert. Die transmittierten Elektronen werden über geeignete Beobachtungssysteme sichtbar gemacht. Das Auflösungsvermögen wird durch das Raleigh-Kriterium beschrieben und kann bei kleinen Winkelabweichungen von \(\alpha<1^\circ\) beschrieben werden durch \(\delta > 60\lambda\). Für eine typische Bechleunigungsspannung von \(100\,\mathrm{kV}\) ergibt sich zum Beispiel eine Auflösung von \(0,2\,\mathrm{nm}\). Dabei wird die Wellenlänge des Elektrons durch die \textit{de Broglie} Wellenlänge für relativistische Teilchen beschrieben: 
 \begin{align}
 \lambda = \frac{h}{\sqrt{2m_\mathrm{0}eV(\frac{1+eV}{2m_\mathrm{0}c^2})}}
 \end{align}
 Mit \(h\) dem planck'schen Wirkungsquantum, \(m_\mathrm{0}\) der Ruhemasse des Elektrons, \(c\) der Lichgeschwindigkeit und \(eV\) der Energie des Elektrons in Elektronenvolt.\\
-Zwei Bildgebungsarten sich möglich. Das erste ist das Beugungsbild, hier wird das reziproke Gitter des Kristalls abgebildet. Das zweite ist das Realbild (Abb. \ref{Strahlengang}).
+Zwei Bildgebungsarten sind möglich. Das erste ist das Beugungsbild, hier wird das reziproke Gitter des Kristalls abgebildet. Das zweite ist das Realbild (Abb. \ref{Strahlengang}).
 \begin{figure}[H]
 \center
 \includegraphics[width=\textwidth]{Strahlengang.png}
@@ -48,9 +48,11 @@ Eine anschauliche Verdeutlichung des Bragg-Gesetzes ist die Ewald-Kugel (Abb. \r
 \caption{Konstruktion der Ewaldkugel im reziproken Kristallgitter.}
 \label{ewald}
 \end{figure}
+\\
+Da selbst die elektromagnetischen Linsen keine perfekten Linsen sind, treten auch hier Fehler auf. Dies sind die sphärische Aberration, die chromatische Aberration und der Linsenastigmatismus. Die sphärische Aberration ist ein Phänomen bei dem die Strahlen, die am Rand der Linse auftreffen weiter entfernt fokussiert werden, als Strahlen, die auf die Mitte der Linse treffen. Dieser Fehler wird in neueren TEM's durch Mulitpolkorrektoren zu kleineren Werten korrigiert. Die Chromatische Aberration beschreibt die unterschiedliche Fokussierung von Elektronen mit unterschiedlichen Energien, oder Wellenlängen. Da die aus dem Filament beschleunigten Elektronen nicht alle mit einer konstanden Energie austreten, sondern durch thermische Effekte einer gewissen Schwankung unterliegen, werden auch diese Elektronen unterschieldich fokussiert. Der letzte signifikante Fehler ist der Linsenastigmatismus bei dem die Linse in x-Richtung und y-Richtung unterschiedlich stark fokussieren. Die Folge ist ein elliptischer und nicht kreisförmiger Elektronenstrahl. Dies kann durch Einstellung der Linsenspannungen korrigiert werden.
 	
 \section{Versuchsaufbau und Versuchsdurchführung}
-Bei dem verwendeten Transmissionselektronenmikroskop handelt es sich um ein Titan 80/300. Es wird verwendet um an einer InGaAs/GaAs-Probe Beugungs- und Realbilder aufzunehmen. Die Probe wurde im FIB präpariert und auf eine Dicke von wenigen Nanometern geschnitten. Im TEM werden in einer Kathode Elektronen freigesetzt und mittels einer an die Lochanode angelegte Spannung von \(300\,\mathrm{kV}\) beschleunigt (Abb \ref{TEM}). Über ein System aus elektromagnetische Linsen werden die Elektronen auf die Probe fokussiert. Dort werden die Elektronen teilweise an den Atomen im Kristallgitter gestreut nach dem Bragg-Gesetz und teilweise reflektiert. Auch werden Elektronen aus den inneren Energieniveaus herausgeschlagen. Wodurch Elektronen aus höheren Energieniveaus in das entstandene Loch zurückfallen und ihre überschüssige Energie als elektromagnetische Strahlung abgeben. Dies ist die charakteristische Röntgenstrahlung und kann auch über ein EDX-System analysiert werden. Dies erlaubt die Bestimmung des Materials.
+Bei dem verwendeten Transmissionselektronenmikroskop handelt es sich um ein Titan 80/300. Es wird verwendet um an einer InGaAs/GaAs-Probe Beugungs- und Realbilder aufzunehmen. Die Probe wurde im FIB präpariert und auf eine Dicke von wenigen Nanometern geschnitten. Im TEM werden in einer Kathode Elektronen freigesetzt und mittels einer an die Lochanode angelegte Spannung von \(300\,\mathrm{kV}\) beschleunigt (Abb \ref{TEM}). Über ein System aus elektromagnetische Linsen werden die Elektronen auf die Probe fokussiert. Dort werden sie teilweise an den Atomen im Kristallgitter gestreut nach dem Bragg-Gesetz und teilweise reflektiert. Auch werden Elektronen aus den inneren Energieniveaus herausgeschlagen. Wodurch Elektronen aus höheren Energieniveaus in das entstandene Loch zurückfallen und ihre überschüssige Energie als elektromagnetische Strahlung abgeben. Dies ist die charakteristische Röntgenstrahlung und kann auch über ein EDX-System analysiert werden. Dies erlaubt die Bestimmung des Materials.
 Die gestreuten Elektronen werden transmittiert und werden wiederum über ein Linsensystem fokussiert. Die Elektronen treffen nun auf einen Beobachtungsschirm, oder eine CCD-Kamera. Über eine weitere Linse wird nun der Strahlengang so gelegt, dass entweder das Beugungsbild, oder das Abbildungsbild zuerkennen ist. Der gesamte Strahlengang befindet sich im Hochvakuum, sodass unerwünschte Wechselwirkungen der Elektronen mit der Luft verhindert werden.
 \begin{figure}[H]
 \center
@@ -58,7 +60,7 @@ Die gestreuten Elektronen werden transmittiert und werden wiederum über ein Lin
 \caption{schematischer Aufbau eines Transmissionselektronenmikroskop. Die aus der Kathode beschleunigten Elektronen werden über mehrere Linsen- und Blendensysteme auf die Probe fokussiert. Nach der Transmission werden die Elektronen erneut auf einen Beobachtunsschirm, oder eine Kamera fokussiert.}
 \label{TEM}
 \end{figure}
-Bevor das Beugungsbild einer Probe aufgenommen werden kann, muss das TEM zuerst justiert werden. Dazu wird der Elektronenstrahl auf das Vakuum fokussiert. Als erstes wird die C2-Blende zentriert, sodass bei einem Vergrößerungswechsel der Strahl in der Mitte des Schirms bleibt. Danach wird der Elektronenstrahl auf eine kreisrunde Form gebracht, da dieser durch den Kondensorastigmatismus zumeist elliptische ist. Als dritter Schritt wird der Strahl auf die Probenoberfläche fokussiert und anschließend wird das Rotationszentrum durch verkippen der Probe eingestellt. Nach der Justage werden Beugungsbilder aufgenommen, sowohl in Zonenachse, als auch mit anderen Lauekreiszentren. Danach werden Aufnahmen im Abbildungsmodus gemacht, wobei Hellfeld-, aber auch Dunkelfeldaufnahmen mit den Reflexen (022) und (004) gemacht werden. Auf der InGaAs/GaAs-Probe befinden sich InGaAs-Quantentrögen, von denen Aufnahmen gemacht werden, um im Anschluss einmal über den Gitterabstand und einmal über den Intensitätsverlauf den Indiumgehalt zubestimmen.
+Bevor das Beugungsbild einer Probe aufgenommen werden kann, muss das TEM zuerst justiert werden. Dazu wird der Elektronenstrahl auf das Vakuum fokussiert. Als erstes wird die C2-Blende zentriert, sodass bei einem Vergrößerungswechsel der Strahl in der Mitte des Schirms bleibt. Danach wird der Elektronenstrahl auf eine kreisrunde Form gebracht, da dieser durch den Kondensorastigmatismus zumeist elliptisch ist. Als dritter Schritt wird der Strahl auf die Probenoberfläche fokussiert und anschließend wird das Rotationszentrum durch Verkippen der Probe eingestellt. Nach der Justage werden Beugungsbilder aufgenommen, sowohl in Zonenachse, als auch mit anderen Lauekreiszentren. Danach werden Aufnahmen im Abbildungsmodus gemacht, wobei Hellfeld-, aber auch Dunkelfeldaufnahmen mit den Reflexen (022) und (004) gemacht werden. Auf der InGaAs/GaAs-Probe befinden sich InGaAs-Quantentrögen, von denen Aufnahmen gemacht werden, um im Anschluss einmal über den Gitterabstand und einmal über den Intensitätsverlauf den Indiumgehalt zubestimmen.
 
 \section{Auswertung}
 
@@ -115,10 +117,8 @@ Es sind außerdem Bereiche auf den Dunkelfeldaufnahmen zu sehen, die ebenfalls d
 	[.49\linewidth]{\includegraphics[width=0.49\textwidth]{Versuchsdaten/11/185000x.jpg}}
 	\subcaptionbox{380000-fache Vergrößerung\label{380k}}
 	[.49\linewidth]{\includegraphics[width=0.49\textwidth]{Versuchsdaten/11/380000x.jpg}}
-	\caption{(020) Dunkelfeldaufnahmen der InGaAs-Quantentröge mit unterschiedlichen Vergrößerungen} \label{trogdunkel}
+	\caption{(020) Dunkelfeldaufnahmen der InGaAs-Quantentröge mit unterschiedlichen Vergrößerungen} \label{*}
 \end{figure}
-
-In Abb. \ref{trogdunkel} sind (020) Dunkelfeldaufnahmen der InGaAs-Quantentröge zu sehen. Da die InGaAs-Schichten den Reflex (020) nicht am gleichen Ort, wie GaAs besitzt, erscheinen die Quantentröge mit einer sehr viel schwächeren Intensität, sodass sie schwarz aussehen.
 
 \begin{figure}[htb]\centering
 	\subcaptionbox{34000-fache Vergrößerung\label{34kaus}}
@@ -129,49 +129,8 @@ In Abb. \ref{trogdunkel} sind (020) Dunkelfeldaufnahmen der InGaAs-Quantentröge
 	[.49\linewidth]{\includegraphics[width=0.49\textwidth]{Versuchsdaten/11/185000xausschnitt.png}}
 	\subcaptionbox{380000-fache Vergrößerung\label{380kaus}}
 	[.49\linewidth]{\includegraphics[width=0.49\textwidth]{Versuchsdaten/11/380000xausschnitt.png}}
-	\caption{Indiumgehalt der Ausschnitte im Querschnitt} \label{indprofil}
+	\caption{Indiumgehalt der Ausschnitte im Querschnitt} \label{ausschnitte}
 \end{figure}
-
-Aus den Aufnahmen in Abb. \ref{trogdunkel} sind Intensitätsprofile über den Querschnitt senkrecht zu den Quantentrögen erstellt worden. Da die Intensität vom Indiumgehalt abhängt, konnte der Indiumgehalt über dem Querschnitt dargestellt werden. Die Ergebnisse sind in Abb. \ref{indprofil} dargestellt. \\
-Außerhalb der Quantentröge wurde hierfür der Indium Gehalt innerhalb der GaAs-Schichten als 0 angenommen. Auf diesen Intensitätswert wurde der Rest des Intensitätprofils normiert. Da die Intensiät quadratisch vom (020) Strukturfaktor abhängt, konnte aus dem Strukturfaktor $F$ abhängig vom Indiumgehalt $x$ der Indiumgehalt in Abhängigkeit von der Intensität $I$ besitmmt werden. Aus der gegebenen Abhängigkeit wurde abgelesen:
-\begin{align*}
-	F = 0,95x - 0,15 \\
-	I = F^2 = (0,95x - 0,15)^2 
-\end{align*}
-
-Die Intensität besitzt also bei keinem Indiumgehalt den Wert 0,0225. Da das Intensitätsprofil auf diese Stelle normiert wurde, wird auch die Intensität normiert und nach x umgestellt:
-
-\begin{align*}
-	I_{norm} = (0,95x - 0,15)^2 / 0,0225
-	x = \frac{\sqrt{I_{norm}\cdot 0,0225}+0,15}{0,95}
-\end{align*}
-
-Mit dieser Gleichung konnten die normierten Intensitätsprofile zu Indiumgehaltsprofilen umgerechnet werden. \\
-Zuletzt wurde der Indiumgehalt zusätzlich mithilfe eines Hochauflösungs-TEM Bildes bestimmt. Hierbei wurde keine Dunkelfeldaufnahme verwendet, um die Intensitäten zu bestimmen, sondern stattdessen die Gitterkonstanten aus den Atomabständen bestimmt. Aus der Abhängigkeit der Gitterkonstante $a$ vom Indiumgehalt, konnte der Indiumgehalt von der Gitterkonstante abhängig gemacht werden. \\
-
-\begin{figure}[htb]\centering
-	\subcaptionbox{Hochauflösungs-TEM Bild\label{hochtem}}
-	[.49\linewidth]{\includegraphics[width=0.49\textwidth]{Versuchsdaten/13/good_data/Frame3.jpg}}
-	\subcaptionbox{Gefiltertes Bild zur Bestimmung von der Gitterkonstante\label{filthoch}}
-	[.49\linewidth]{\includegraphics[width=0.49\textwidth]{Versuchsdaten/13/good_data/Frame3_rotated_and_filtered.jpg}}\\
-	\caption{Hochauflösungs-TEM Bilder von InGaAs-Quantentrögen} \label{hoch}
-\end{figure}
-
-Das Hochauflösungs-TEM Bild ist in Abb. \ref{hochtem} zu sehen. Da im Versuch selbst kein verwendbares Hochauflösungsbild erstellt werden konnte, wurde ein passendes Ergebnis aus älteren Versuchen zur Verfügung gestellt. In Abb. \ref{filthoch} wurden mit der DALI (Digital Analysis of Lattice Images) Software die Netzebenenabstände vermessen und daraus ein Profil der Gitterverzerrung durch den Quantentrog erstellt. \\
-Mit der gegebenen Abhängigkeit zwischen Gitterkonstante und Indiumgehalt konnte daraus mit folgender Umrechnung ein Profil des Indiumgehalts erstellt werden, welches in Abb. \ref{hochindium} dargestellt ist:
-
-\begin{align*}
-	(x-1) / 0.0718
-\end{align*}
-
-\begin{figure}[h]\centering
-	\includegraphics[width=0.65\textwidth]{Versuchsdaten/13/Graph01.png}
-\label{hochindium}
-\caption{Profil des Indiumgehaltes, bestimmt durch die Gitterverzerrung}
-\end{figure}
-
-
-
 
 \section{Zusammenfassung}
 
