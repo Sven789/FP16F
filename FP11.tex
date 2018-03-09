@@ -78,12 +78,12 @@ Es wurde eine GaAs Probe untersucht, die Quantentröge aus InGaAs enthält. Auf 
 
 \begin{figure}[h]\centering
 	\includegraphics[width=0.65\textwidth]{Versuchsdaten/8/indiziert2.png}
-\caption{Beugungsbild auf InGaAs in Zonenache [100]}
+\caption{Beugungsbild auf GaAs in Zonenache [100]}
 \label{100ind}
 \end{figure}
 
-Die Zonenachse [100] ist dadurch zu erkennen, dass die Intensitäten der Reflexe symmetrisch um den Punkt (000) verteilt sind. Wird die Probe verkippt, bilden sich Lauekreise mit Zentren abseits des Punktes (000), sodass der Punkt (000) immer auf dem Rand des Kreises liegt. Da GaAs ein kubischflächenzentriertes Gitter mit zwei Atomsorten bildet, haben alle Punkte mit ungeraden Laue-Indizes einen Strukturfaktor von 0. Dementsprechend sind die entsprechenden Reflexe auf dem Beugungsbild auch nicht zu erkennen. \\
-Im Folgenden wurden mehrere Beugungsbilder mit unterschiedlichen Lauekreiszentren aufgenommen.
+Die Zonenachse [100] ist dadurch zu erkennen, dass der Reflex (000) in der Mitte des Lauekreises liegt. Wird die Probe verkippt, bilden sich Lauekreise mit Zentren abseits des Punktes (000), sodass der Punkt (000) immer auf dem Rand des Kreises liegt. Da GaAs ein kubischflächenzentriertes Gitter mit zwei Atomsorten bildet, haben alle Punkte mit ungeraden Laue-Indizes einen Strukturfaktor von 0. Dementsprechend sind die entsprechenden Reflexe auf dem Beugungsbild auch nicht zu erkennen. Die Helligkeitsverteilung entspricht dabei den Erwartungen gemäß des Strukturfaktors. Gallium sitzt an den Gitterplätzen [0 0 0], [0 $\frac{1}{2}$ $\frac{1}{2}$], [$\frac{1}{2}$ 0 $\frac{1}{2}$] und [$\frac{1}{2}$ $\frac{1}{2}$ 0]. Somit erhält der Strukturfaktor nur einen Wert für ganze Laue-Indizes. Um zu erklären, dass der Reflex (004) heller ist, als (002), muss der Strukturfaktor vom Arsen angesehen werden. Die Arsen-Atome sitzen um [$\frac{1}{4}$ $\frac{1}{4}$ $\frac{1}{4}$] verschoben zu den Gallium-Atomen. Dies hat zur Auswirkung, dass der Strukturfaktor von Arsen nur ungleich 0 ist für Laue-Indizes, dessen Summe ein ganzes Vielfaches von 4 ist. Auf die etnsprechenden Reflexe, z.B. (004), (022), wirken sich somit die Streuamplituden beider Atome aus.
+Im Folgenden wurden mehrere Beugungsbilder mit Lauekreiszentren (0 0 8),(0 2 2), (0 0 10), (0 $\bar{6}$ $\bar{2}$) und (0 0 2) aufgenommen.
 
 \begin{figure}[htb]\centering
 	\subcaptionbox{Beugungsbild mit Lauekreiszentrum (008)\label{008}}
@@ -99,7 +99,7 @@ Es sind als Beispiel noch zwei Beugungsbilder mit zufälligen Lauekreiszentren a
 \begin{figure}[htb]\centering
 	\subcaptionbox{Lauekreiszentrum (0 0 10)\label{rand}}
 	[.49\linewidth]{\includegraphics[width=0.49\textwidth]{Versuchsdaten/9/RandomTilt.jpg}}
-	\subcaptionbox{Beugungsbild mit sichtbarem zweiten Lauekreis\label{rand1}}
+	\subcaptionbox{Beugungsbild mit sichtbarem zweiten Lauekreis und Lauekreiszentrum bei (0 $\bar{6}$ $\bar{2}$)\label{rand1}}
 	[.49\linewidth]{\includegraphics[width=0.49\textwidth]{Versuchsdaten/9/RandomTilt1.jpg}}\\
 	\caption{Zwei Beugungsbilder mit zufälliger Drehung der Probe} \label{rands}
 \end{figure}
@@ -148,22 +148,23 @@ In Abb. \ref{trogdunkel} im Anhang sind (020) Dunkelfeldaufnahmen der InGaAs-Qua
 \end{figure}
 
 Aus den Aufnahmen in Abb. \ref{trogdunkel} sind Intensitätsprofile über den Querschnitt senkrecht zu den Quantentrögen erstellt worden. Da die Intensität vom Indiumgehalt abhängt, konnte der Indiumgehalt über dem Querschnitt dargestellt werden. Die Ergebnisse sind in Abb. \ref{indprofil} dargestellt. \\
-Außerhalb der Quantentröge wurde hierfür der Indium Gehalt innerhalb der GaAs-Schichten als 0 angenommen. Auf diesen Intensitätswert wurde der Rest des Intensitätprofils normiert. Da die Intensiät quadratisch vom (020) Strukturfaktor abhängt, konnte aus dem Strukturfaktor $F$ abhängig vom Indiumgehalt $x$ der Indiumgehalt in Abhängigkeit von der Intensität $I$ besitmmt werden. Aus der gegebenen Abhängigkeit wurde abgelesen:
+Außerhalb der Quantentröge wurde hierfür der Indium Gehalt innerhalb der GaAs-Schichten als 0 angenommen. Auf diesen Intensitätswert wurde der Rest des Intensitätprofils normiert. Da die Intensität quadratisch vom (020) Strukturfaktor abhängt, konnte aus dem Strukturfaktor $F(x)$ der Indiumgehalt $x$ in Abhängigkeit von der Intensität $I$ bestimmt werden. Aus der gegebenen Abhängigkeit wurde abgelesen:
 \begin{align*}
-	F = 0,95x - 0,15 \\
-	I = F^2 = (0,95x - 0,15)^2 
+	I \sim F^2 \\
+	\dfrac{I(x)}{I(0)} = \left\vert\dfrac{F(x)}{F(0)}\right\vert^2
 \end{align*}
 
-Die Intensität besitzt also bei keinem Indiumgehalt den Wert 0,0225. Da das Intensitätsprofil auf diese Stelle normiert wurde, wird auch die Intensität normiert und nach x umgestellt:
+Diese Beziehung wird nach $F(x)$ umgestellt und dann nach $x$ aufgelöst. Hierzu wurde die Abhängikeit des Strukturfaktors im (020) Reflex vom Indiumgehalt $F(x) = (0,95x - 0,15)\,\mathrm{nm}$ genutzt.
 
 \begin{align*}
-	I_{norm} = (0,95x - 0,15)^2 / 0,0225 \\
-	x = \frac{0,15-\sqrt{I_{norm}\cdot 0,0225}}{0,95}
+	F(x) = \pm\sqrt{\dfrac{I(x)}{I(0)}}\vert F(0) \vert \\
+	x = \dfrac{\pm\sqrt{\dfrac{I(x)}{I(0)}}\vert F(0)\vert - F(0)}{0,95}
 \end{align*}
 
+Wobei $F(0) = -0,15\,\mathrm{nm}$ ist. Die positive Wurzel würde dabei für Konzentrationen größer als $\frac{0,15}{0,95}$ stehen, weshalb hier die negative Lösung genutzt wird. \\
 Mit dieser Gleichung konnten die normierten Intensitätsprofile zu Indiumgehaltsprofilen umgerechnet werden. Die Quadratfunktion hat zwei Lösungen, von der die Negative verwendet werden muss, damit bei einer normierten Intensität von 1 der Indiumgehalt 0 wird. \\
 Zuletzt wurde der Indiumgehalt zusätzlich mithilfe eines Hochauflösungs-TEM Bildes bestimmt. Hierbei wurde keine Dunkelfeldaufnahme verwendet, um die Intensitäten zu bestimmen, sondern stattdessen die Gitterkonstanten aus den Atomabständen bestimmt. Aus der Abhängigkeit der Gitterkonstante $a$ vom Indiumgehalt, konnte der Indiumgehalt von der Gitterkonstante abhängig gemacht werden. \\
-Das Hochauflösungs-TEM Bild ist in Abb. \ref{hochtem} im Anhang zu sehen. Da im Versuch selbst kein verwendbares Hochauflösungsbild erstellt werden konnte, wurde ein passendes Ergebnis aus älteren Versuchen zur Verfügung gestellt. In Abb. \ref{filthoch} im Anhang wurden mit der DALI (Digital Analysis of Lattice Images) Software die Netzebenenabstände vermessen und daraus ein Profil der Gitterverzerrung durch den Quantentrog erstellt. \\
+Das Hochauflösungs-TEM Bild ist in Abb. \ref{hochtem} im Anhang zu sehen. Da im Versuch selbst kein verwendbares Hochauflösungsbild erstellt werden konnte, wurde ein passendes Ergebnis aus älteren Versuchen zur Verfügung gestellt. In Abb. \ref{filthoch} im Anhang wurden mit der Software Image eval die Netzebenenabstände vermessen und daraus ein Profil der Gitterverzerrung durch den Quantentrog erstellt. \\
 Mit der gegebenen Abhängigkeit zwischen Gitterkonstante und Indiumgehalt konnte daraus mit folgender Umrechnung ein Profil des Indiumgehalts erstellt werden, welches in Abb. \ref{hochindium} dargestellt ist:
 
 \begin{align*}
